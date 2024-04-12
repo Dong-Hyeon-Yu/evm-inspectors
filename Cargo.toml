@@ -25,7 +25,7 @@ alloy-sol-types = "0.6"
 alloy-primitives = "0.6"
 alloy-rpc-types = { git = "https://github.com/alloy-rs/alloy", rev = "76c70fb" }
 alloy-rpc-trace-types = { git = "https://github.com/alloy-rs/alloy", rev = "76c70fb" }
-revm = { git = "https://github.com/Dong-Hyeon-Yu/revm", branch = "master", default-features = false, features = [
+revm = { git = "https://github.com/Dong-Hyeon-Yu/revm", rev = "606b9af664d97f15d4c51dd5e03edc1a90427770", default-features = false, features = [
     "std",
 ] }
 
